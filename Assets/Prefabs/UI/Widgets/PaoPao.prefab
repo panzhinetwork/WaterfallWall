@@ -324,7 +324,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -335,7 +335,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: "\u8302\u540D\u5E02\u9AD8\u7EA7\u6280\u5DE5\u5B66\u6821\u7701\u7EA7\u7CA4\u83DC\u5E08\u5085\u6280\u80FD\u57F9\u8BAD\u57FA\u5730"
+  m_Text: "\u4E1C\u839E\u5357\u57CE\u77F3\u9F13\u793E\u533A\u5783\u573E\u5206\u7C7B\u5C55\u5385"
 --- !u!114 &8249432171579952909
 MonoBehaviour:
   m_ObjectHideFlags: 0

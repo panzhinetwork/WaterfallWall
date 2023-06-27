@@ -1,3 +1,6 @@
 {
-	"timeout": 60
+	"timeout": 60,
+	"port": 56000,
+	"stay": "stay",
+	"active": "active"
 }

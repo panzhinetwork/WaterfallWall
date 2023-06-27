@@ -36,6 +36,12 @@ public class PaoPao : MonoBehaviour
         _topic.text = _config.title;
         if (_config.images.Count > 0)
             _image.sprite = _config.images[0];
+        if (_config.title.Length >= 19)
+            _topic.fontSize = 14;
+        else if (_config.title.Length >= 14)
+            _topic.fontSize = 16;
+        else
+            _topic.fontSize = 18;
     }
 
     public TopicConfig GetTopic()
