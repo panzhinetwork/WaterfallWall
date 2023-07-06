@@ -36,7 +36,7 @@ public class UIMain : UIAbstractView
     {
         Events.Get<TimeoutEvent>().AddListener(OnTimeout);
         TimeoutChecker.instance.SetTimeOut(ConfigFiles.configs.timeout);
-        TimeoutChecker.instance.enabled = true;
+        TimeoutChecker.instance.enabled = false;
         _bgVideo.targetTexture.Release();
         _bgVideo.url = Application.streamingAssetsPath + "/Videos/bg.mp4";
         _stayVideo.targetTexture.Release();
